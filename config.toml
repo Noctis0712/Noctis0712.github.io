@@ -1,0 +1,67 @@
+baseURL = "http://funoctis.me/"
+languageCode = "en-us"
+title = "Amey Khale"
+theme = "minimal"
+disqusShortname = "username" # delete this to disable disqus comments
+googleAnalytics = ""
+
+[params]
+    author = "Amey Khale"
+    description = "Hey there! Welcome to my personal site."
+    githubUsername = "funoctis"
+    accent = "crimson"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Raleway" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "default"
+    highlightLanguages = ["python", "go"]
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/about/"
+    name = "About"
+    weight = 2
+
+[[menu.main]]
+    url = "/posts/"
+    name = "Posts"
+    weight = 3
+
+[[menu.main]]
+    url = "/projects/"
+    name = "Projects"
+    weight = 4
+
+# Social icons to be shown on the right-hand side of the navigation bar.
+# The "name" field should match the name of the icon in Font Awesome.
+# The list of available icons can be found at http://fontawesome.io/icons.
+
+[[menu.icon]]
+    url = "mailto:ameykhale@gmail.com"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/funoctis/"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/funoctis/"
+    name = "twitter"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/funoctis/"
+    name = "linkedin"
+    weight = 4
+
+# [[menu.icon]]
+    # url = "https://www.stackoverflow.com/username/"
+    # name = "stack-overflow"
+    # weight = 5
