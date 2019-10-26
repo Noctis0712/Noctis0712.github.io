@@ -1,4 +1,4 @@
-baseURL = "https://funoctis.me/"
+baseURL = "https://funoctis.netlify.com"
 languageCode = "en-us"
 title = "Amey Khale"
 theme = "minimal"
