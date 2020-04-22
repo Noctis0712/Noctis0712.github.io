@@ -1,10 +1,8 @@
 ---
 title: "Git or: How You Will Learn to Stop Worrying and Love Programming"
-date: 2020-04-23
+date: 2020-04-23T03:00:00+05:30
 draft: false
 ---
-
-## Intro
 
 Since you’re reading this, I’m going to assume you already know a thing or two about writing computer code. And if you know that, you’re also know that it can break down at any time because of some minor change. 
 
@@ -14,13 +12,15 @@ This is something that Git can help you with. Git has many more uses, but this m
 
 ## But what *is* Git?
 
-The [official website](https://git-scm.com/) says, Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and delivery.
+The [official website](https://git-scm.com/) says, *Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and delivery.*
 
-Okay, that’s too many big words in a single sentence. In simple terms, it is a software that keeps track of your own software project by saving a snapshot of what your project looks like at different times. This ‘snapshot’ in Git terms is called a commit.
+Okay, that’s too many big words in a single sentence. In simple terms, it is a software that keeps track of your own software project by saving a snapshot of what your project looks like at different times. This ‘snapshot’ in Git terms is called a **commit**.
 
 By saving snapshots of your projects at different times, it is basically saving versions of your project. And you are free to view and go to any version of your project. Hence the term, “Version Control System”.
 
 The source code for Git is available to all public on GitHub (more on this below), making it “Open Source”.
+
+Also, Git allows multiple developers to work on the same project without having to worry about another person’s code changes affecting them.
 
 ## Time to go hands-on
 
@@ -117,11 +117,11 @@ Also, which Git is originally a command-line tool, I highly recommend using a GU
 
 ## GitHub
 
-Apart from just version control, Git is also distributed. Meaning there can be one ‘main’ copy of the repository stored on some server, while multiple other copies can be stored on the developers’ computer. That’s right, developers with an s. Git makes it possible multiple developers to work on the same project, and it does so while making sure two developers don’t make different changes to the same block of code. To learn how, you’ll need to know about branches and merges.
+Apart from just version control, Git is also distributed. Meaning there can be one ‘main’ copy of the repository stored on some server, while multiple other copies can be stored on the developers’ computer. Git makes it possible multiple developers to work on the same project, and it does so while making sure two developers don’t make different changes to the same block of code. To learn how, you’ll need to know about **branches** and **merges**.
 
 GitHub is the most common place where the ‘server’ repository is stored. This repository is called the ‘remote repository’.
 
-To get started, let’s create a GitHub account. Visit [GitHub]( https://github.com/). When that’s done, create a new repository [here](https://github.com/new).  Name it the same as your local repository, `my-first-repo`. Copy the URL, which should be of the form `https://github.com/username/my-first-repo.git`. Remember that .git towards the end is important.
+To get started, let’s create a GitHub account. Visit [GitHub]( https://github.com/). When that’s done, create a new repository [here](https://github.com/new).  Name it the same as your local repository, `my-first-repo`. Copy the URL, which should be of the format `https://github.com/<username>/<repo-name>.git`. Remember that .git towards the end is important.
 
 Go back to your terminal and add this remote repository:
     
