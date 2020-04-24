@@ -27,8 +27,8 @@ Also, as I mentioned above, collaboration. Git allows multiple developers to wor
 Git can be downloaded from its official website. Once you’ve downloaded and installed it, you’re ready to create you first Git project or to be more precise, your first Git repository.
 
 **Note**: I highly recommend using a GUI application to use Git for the most part. These make life a lot easier, especially for new users. Favourites are 
-- [GitHub Desktop]( https://desktop.github.com/)
-- [GitKraken]( https://www.gitkraken.com/).
+-   [GitHub Desktop]( https://desktop.github.com/)
+-   [GitKraken]( https://www.gitkraken.com/).
 
 However, since Git is originally a command-line tool, we'll stick with that for now.
 
