@@ -4,7 +4,7 @@ date: 2020-04-24T01:40:00+05:30
 draft: false
 ---
 
-Since you’re reading this, I’m going to assume you already know a thing or two about writing computer code. And if you know that, you’re also know that it can break down at any time because of some minor change. 
+Since you’re reading this, I’m going to assume you already know a thing or two about writing computer code. And if you know that, you also know that it can break down at any time because of some minor change. 
 
 But changes are necessary. Software needs updates, be it bug fixes, performance improvements, or some cool new features. With all these constant changes happening, we need some way to track them. And while making these very changes, we tend to break code that was working just fine which leads to us worrying about reverting the code back to its working state, except it’s a tedious task and(or) we don’t remember how the code exactly was because there’s usually just so much of it. 
 
@@ -84,7 +84,7 @@ Check `git status` once again. You'll see that it has change, `new file: hello-w
 
     git commit -m "Inital Commit"
 
-Here the `-m` flag stands for 'message' which in this case is `"Initial Commit"`. A message is must while making a commit.
+Here the `-m` flag stands for 'message' which in this case is `"Initial Commit"`. A message is a must while making a commit.
 
 Let’s make some changes to the file. A simple `for` loop perhaps?
 
@@ -103,7 +103,7 @@ To view what the recent modification was, do
 
     git show -1 hello-world.py
 
-You’ll see the lines you added highlighted and with a + sign at the beginning indicating that these are additions. Here the 1 represents ‘show just the last 1 change’
+You’ll see the lines you added are highlighted and have a `+` sign at the beginning indicating that these are additions. In the command, the `1` means ‘show just the last 1 change’
 
 To see the list of all commits you’ve made, use
 
