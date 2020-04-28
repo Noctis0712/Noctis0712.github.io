@@ -4,14 +4,14 @@ date: 2019-10-26T19:03:54+05:30
 draft: false
 ---
 
-## BookSearchGo
+### BookSearchGo
 
-### A Simple Book Search Engine written in Go.
+A Simple Book Search Engine written in Go.
 
-#### [Github](https://github.com/funoctis/BookSearchGo)
+[Github](https://github.com/funoctis/BookSearchGo)
 
-## MUQuestionPaperBot
+### MUQuestionPaperBot
 
-### Telegram Bot to get previous Mumbai University question papers from muquestionpapers.com
+Telegram Bot to get previous years' Mumbai University Engineering Question Papers asked from muquestionpapers.com
 
-#### [Github](https://github.com/funoctis/MUQuestionPaperBot)
+[Github](https://github.com/funoctis/MUQuestionPaperBot)
