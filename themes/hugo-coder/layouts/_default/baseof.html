@@ -15,8 +15,8 @@
     {{ if .Permalink }}
       <base href="{{ .Permalink }}">
     {{ end }}
-    <!-- <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title> -->
-    <title>Amey Khale</title>
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+    <!-- <title>Amey Khale</title> -->
     {{ if .Permalink }}
       <link rel="canonical" href="{{ .Permalink }}">
     {{ end }}
