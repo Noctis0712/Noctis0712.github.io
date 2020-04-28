@@ -1,6 +1,6 @@
 baseurl = "http://www.example.com"
 title = "AmeyKhale"
-
+googleAnalytics = "UA-164773854-1"
 theme = "hugo-coder"
 
 languagecode = "en"
