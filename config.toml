@@ -1,5 +1,5 @@
-baseurl = "http://www.example.com"
-title = "AmeyKhale"
+baseurl = "funoctis.me"
+title = "ameykhale"
 googleAnalytics = "UA-164773854-1"
 theme = "hugo-coder"
 
@@ -67,7 +67,7 @@ pygmentscodefencesguesssyntax = true
     name = "Github"
     icon = "fab fa-github"
     weight = 1
-    url = "https://github.com/johndoe/"
+    url = "https://github.com/funoctis/"
 # [[params.social]]
 #    name = "Gitlab"
 #    icon = "fab fa-gitlab"
@@ -82,7 +82,7 @@ pygmentscodefencesguesssyntax = true
     name = "LinkedIn"
     icon = "fab fa-linkedin"
     weight = 4
-    url = "https://www.linkedin.com/in/johndoe/"
+    url = "https://www.linkedin.com/in/funoctis/"
 # [[params.social]]
 #    name = "Medium"
 #    icon = "fab fa-medium"
@@ -118,10 +118,15 @@ pygmentscodefencesguesssyntax = true
             weight = 3
             url = "projects/"
 
-            # [[languages.en.menu.main]]
-            # name = "Contact me"
-            # weight = 5
-            # url = "contact/"
+            [[languages.en.menu.main]]
+            name = "Tags"
+            weight = 4
+            url = "tags/"
+
+            [[languages.en.menu.main]]
+            name = "Contact"
+            weight = 5
+            url = "contact/"
 
 
     
