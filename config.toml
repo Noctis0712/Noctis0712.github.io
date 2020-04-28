@@ -1,4 +1,4 @@
-baseurl = "funoctis.me"
+baseurl = "https://funoctis.netlify.com"
 title = "ameykhale"
 googleAnalytics = "UA-164773854-1"
 theme = "hugo-coder"
