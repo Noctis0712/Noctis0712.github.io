@@ -18,13 +18,16 @@ This is something that Git can help you with. Git has many more uses, but these 
 
 ## So what is Git, really?
 
-The [official website](https://git-scm.com/) says, *Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and delivery.*
+The [official website](https://git-scm.com/) says, 
+> Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and delivery.
 
 Okay, that’s too many big words in a single sentence. In simple terms, it is a software that keeps track of your own software project by saving a 'snapshot' of what your project looks like at different times. This ‘snapshot’ in Git terms is called a **commit**. Think of it as creating a checkpoint.
 
 By saving snapshots of your projects at different times, it is basically saving different *versions* of your project. And you are free to view and go to any version of your project. Hence the term, **Version Control System**.
 
 The source code for Git is available to all public on their [GitHub](https://github.com/git/git) *(more on GitHub below)*, making it “Open Source”.
+
+Git is also the most popular VCS out there right now. Currently, 71% of all Open Source Repositories indexed by Open Hub use Git. Needless, to say, it is an important skill to know if you're looking for a job in the software field. 
 
 ## Time to go hands-on
 
@@ -102,7 +105,7 @@ Check `git status` once again. You'll see that it has a change, `new file: hello
 git commit -m "Inital Commit"
 ```
 
-Here the `-m` flag stands for 'message' which in this case is `"Initial Commit"`. A message is a must while making a commit. At this point Git must've asked you to enter an username. Git needs this because it associates each commit with an *author* so that when working in teams, you know exactly who made which changes.
+Here the `-m` flag stands for 'message' which in this case is `"Initial Commit"`. A message is a must while making a commit. At this point Git must've asked you to enter an username. Git needs this because it associates each commit with an **author** so that when working in teams, you know exactly who made which changes.
 
 **Tip**: Always make sure that the commit message is meaningful in the sense that it can explain in not more than 10 words what the changes are.
 
@@ -118,12 +121,14 @@ for i in range(5):
     print(i)
 ```
 
-If you check `git status` again, it’ll show that there’s been a modification to the file. Stage and commit this change with
+If you check `git status` again, it’ll show that there’s been a modification to the file. Stage and commit this change with 
 
 ```
 git add hello-world.py
-git commit -m “Second commit”
+git commit -m “Added a for loop” 
 ```
+
+Notice that the commit message here explains in short the changes made.
 
 **Tip:** Commit different features differently. For example, say you're working on a website and you've made changes to a HTML template and to some backend logic. Commit these two changes seperately with relevant commit messages instead of committing everything at once. 
 
@@ -175,6 +180,10 @@ Apart from just version control, Git is also distributed. Meaning there can be o
 
 GitHub is the most common place where the ‘server’ repository is stored. This repository is called the *remote repository*.
 
+![git-gh-p-ph](/images/git-gh-p-ph.jpg)
+
+<img src="/images/git-gh-p-ph.jpg" width="200">
+
 To get started, let’s create a GitHub account. Visit [GitHub]( https://github.com/). When that’s done, create a new repository [here](https://github.com/new).  Name it the same as your local repository, `my-first-repo`. Copy the URL, which should be of the format `https://github.com/<username>/<repo-name>.git`. Remember that `.git` towards the end is important.
 
 Go back to your terminal and add this remote repository:
@@ -189,7 +198,7 @@ git remote add origin <paste-url-here>
 git push -u origin master 
 ```
 
-You may browser window asking you to log in to GitHub. This is so that GitHub can verify that it really is you so is pushing the commit. The `push` command is used to 'upload' the repository to a remote location. It's also the command you use to update it incrementally with commits. Congratulations, you made your first Git repository online! Visit GitHub and you’ll see that your code is now live!
+You may see a browser window open up, asking you to log in to GitHub. This is so that GitHub can verify that it really is you so is pushing the commit. The `push` command is used to 'upload' the repository to a remote location. It's also the command you use to update it incrementally with commits. Congratulations, you made your first Git repository online! Visit GitHub and you’ll see that your code is now live!
 
 Alright, now what if you wanted to *download* a repository from GitHub? Maybe you're on a new machine and want to carry over your work from the previous machine. Or perhaps you're working in a team and want to get the project that your teammate has put up on GitHub (remember Git is also about collaboration)?. To download a remote repository, you use the `git clone` command. 
 
@@ -205,7 +214,9 @@ When you clone a project from a remote location such as GitHub, it comes with th
 git push origin master
 ```
 
-Here, `master` is a **branch**.
+Here, `master` is a **branch**. 
+
+**Note:** You can push changes directly to remote only if you have the authority to do so (you own the repository or you're an authorized member in the organization that does). To contribute your changes to someone else's repository, you would need to **fork** their project and create a **pull request** ([more on that here](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests)).  
 
 ## Branching and Merging
 
@@ -284,13 +295,13 @@ When you do a `git add .`, these files get staged too. To avoid this from happen
 
 ## Conclusion
 
-I hope this was helpful, and that you've learned something new or revised what you already knew! It surely was a nice revision for me. 
+I hope this was helpful, and that you've learned something new or revised what you already knew! 
 
 There is definitely more to learn about Git (and GitHub) than what I've talked about here, but this was after all an introductory article. So this will be all for now. I've linked some good material to learn more about Git below.
 
 ## Some resources to learn Git
 -	[Official Documentation](https://git-scm.com/doc)
 -	[Pro Git Book](https://git-scm.com/book/en/v2) (it's a free eBook)
+-   [Atlassian's Git Tutorials](https://www.atlassian.com/git/tutorials)
 -   [This Git & GitHub Tutorial](https://gitbookdown.site/)
 -	[Some More Resources](https://try.github.io/)
-
