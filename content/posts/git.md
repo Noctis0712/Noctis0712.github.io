@@ -1,12 +1,15 @@
 ---
-title: "Git or: How You Will Learn to Stop Worrying and Love Programming"
+title: "Intro to Git or: How You Will Learn to Stop Worrying and Love Programming"
 date: 2020-04-28T22:00:00+05:30
 # categories:
 tags: 
 - Git
 - GitHub
+toc: true
 draft: false
 ---
+
+## Introduction
 
 Since you’re reading this, I’m going to assume you already know a thing or two about writing computer code. And if you know that, you also know that it can break down at any time because of some minor change. 
 
