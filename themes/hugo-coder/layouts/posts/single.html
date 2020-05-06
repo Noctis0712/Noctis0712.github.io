@@ -30,6 +30,7 @@
         {{ if .Params.featured_image }}
           <img src='{{ .Params.featured_image }}' alt="Featured image"/>
         {{ end }}
+        {{ partial "toc.html" . }}
         {{ .Content }}
       </div>
 
