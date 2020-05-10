@@ -13,7 +13,7 @@ pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-# disqusShortname = "yourdiscussshortname"
+disqusShortname = "funoctis-me"
 
 [params]
     author = "Amey Khale"
