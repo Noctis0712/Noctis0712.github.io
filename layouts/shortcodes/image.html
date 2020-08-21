@@ -1,0 +1,17 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" }}
+{{ $title := .Get "title"}}
+<div class="center">
+    <img
+        src="{{ $src }}"
+        alt="{{ $alt }}"
+        title="{{ $title }}"
+        decoding="async"
+    />
+    <div style="text-align: center;
+                font-style: italic;
+                font-size: 1.6rem;
+                margin: 0;">
+    {{ $title }}
+    </div>
+</div>
