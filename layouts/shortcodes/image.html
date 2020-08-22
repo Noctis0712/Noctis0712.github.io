@@ -1,11 +1,14 @@
 {{ $src := .Get "src" }}
 {{ $alt := .Get "alt" }}
 {{ $title := .Get "title"}}
+{{ $height := .Get "height" | default "auto"}}
 <div class="center">
     <img
         src="{{ $src }}"
         alt="{{ $alt }}"
         title="{{ $title }}"
+        height="{{ $height }}"
+        width=auto
         decoding="async"
     />
     <div style="text-align: center;
